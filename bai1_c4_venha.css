@@ -1,0 +1,125 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+#main
+{
+    border: black 2px solid;
+    margin: 0 auto;
+    width: 99%;
+    padding: 5px;
+}
+#header
+{
+    
+    background-color: chartreuse;
+    height: 90px;
+    color: white;
+    margin-bottom: 5px;
+    padding-left:20px ;
+    padding-top: 10px;  
+    font-size: 25px;  
+}
+#header h1
+{
+    font-size: 50px;
+}
+#left
+{
+   
+    background: whitesmoke;
+    min-height: 600px;
+    width: 19.66%;
+    float:left;
+    margin: 0 5px 5px 0;
+}      
+#content
+{
+    background: gainsboro;
+    min-height: 600px;
+    width:59.67%;
+    float: left;
+    margin: 0 5px 5px 0;
+}     
+#right
+{
+    background: rgb(128, 128, 248);
+    min-height: 585px;
+    width: 19.34%;
+    float:right;
+    padding: 10px 5px 5px 5px;
+}
+#footer
+{
+    background: sienna;
+    height: 70px;
+    clear: both;
+}
+#menu ul
+{
+    list-style-type: none;     
+       background: rgb(226, 223, 223);  
+       width: 100%;
+}
+#menu
+{
+    width: 80%;
+    margin: 10px auto;
+}
+#menu a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+#menu li
+{
+    
+    padding: 10px;
+    border-bottom: white 2px solid;
+}
+#menu li:hover
+{
+    background: greenyellow;
+}
+#right #slidebar
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#right #text
+{
+    font-size: 35px;
+}
+#content #anhleft
+{
+    float:left;
+}
+#content .title
+{
+    font-size: 33px;
+    text-transform:capitalize;
+    margin-bottom: 40px;
+}
+#content img
+{
+    width: 100px;
+    height: 100px;
+}
+.text1
+{
+    padding: 10px;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+#clear
+{
+    
+    clear: both;
+}
+#content #anhright
+{
+    float:right;     
+}

@@ -1,0 +1,234 @@
+body
+{
+    
+    padding: 5px;
+}
+#main
+{    
+    padding: 5px;
+    width: 99%;
+    height: 100%;
+    border: solid 2px black;       
+}
+#header-link
+{
+    height: 50px;
+    background: rgb(49, 46, 46);
+    margin-bottom: 5px;
+    padding: 5px !important;
+}
+#header
+{  
+    background: rgb(238, 230, 230);
+    height: 80px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#left 
+{
+    background: rgb(236, 230, 231) ;
+    height: 880px ; 
+    float :left ;  
+    width: 73.64% ; 
+    margin: 0 5px 5px 0;
+    padding: 10px;
+}
+#right
+{
+    background: rgb(236, 230, 231) ;
+    height: 880px;
+    width: 22.97%;
+    float:right;
+     margin: 0 5px 5px 0;
+    padding: 10px;
+}
+#footer
+{
+    clear: both;
+    
+    background: rgb(236, 230, 231) ;
+    height: 100px;    
+}
+#logo
+{
+    background: #251414;
+    padding: 5px;
+    color: white;
+    width:3.2%;  
+    float:left;
+}
+#web
+{
+    clear: both;
+    float: left;
+    position: relative;
+    top:40px;
+    font-size: 20px;
+}
+#btn1
+{
+    background: #251414;
+    padding: 5px;
+    color: white;
+    width:4%; 
+    float: right;
+    margin-left: 5px;
+}
+#btn2
+{
+    background: #251414;
+    padding: 5px;
+    color: white;
+    width:4%; 
+    float:right;
+    margin: 0 5px;
+}
+
+.menu{
+    position: relative;
+    top:25px;
+ float:right;
+}
+.menu ul
+{
+    list-style-type: none;    
+}
+.menu li
+{
+    display: inline-block;
+    padding-right: 5px;
+    border-right:2px solid white ;
+}
+#menu1 ul
+{
+       text-align: center;
+    margin: 10px auto;
+    list-style-type: none;
+}
+#menu1 li{
+    display: inline-block;
+   
+    border-right:white 3px solid;
+    padding-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+#menu1 a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.text
+{
+    margin-top: 20px;    
+    color: rgb(49, 45, 45);
+    font-size:40px;
+}
+
+#hinh
+{    background: rgb(53, 49, 49);
+    padding: 75px;
+    text-align: center;
+    width:120px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 50px;
+    float:left;
+    margin-right:50px ;
+}
+#vanban b
+{
+    color: blue;
+    font-size: 30px;
+}
+#khung
+{    
+    clear: both;
+    border:white 2px solid;
+    text-align: center;
+    margin: 10px;
+}
+.hinh1
+{
+    background: rgb(51, 47, 47);
+    height: 70px;
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+#tintuc b
+{
+    font-size: 30px;
+}
+#tintuc span
+{
+    color: blue;
+}
+hr
+{
+    border-top: rgb(165, 151, 151) 3px solid ;
+}
+a 
+{
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+}
+.duong
+{
+    border-width:1px ;
+    border-top-style: dotted;
+}
+#baner
+{
+    background: rgb(61, 57, 57);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+    padding: 43px;
+    font-size: 50px;
+    margin: 0 auto;
+    border:black 3px solid;
+    border-radius: 20px;
+}
+#right ul
+{
+    list-style-type: square;
+    color: blue;
+}
+.baner1
+{
+    background: rgb(61, 57, 57);
+    color: white;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    text-transform: uppercase;
+    width: 80%;
+    padding:20px;
+    font-size: 40px;  
+    border:black 3px solid;
+    border-radius: 20px;
+}
+#footer span
+{
+    text-transform: uppercase;
+}#addr
+{
+    font-size: 22px;
+}
+#footer .menu ul
+{
+    position:inherit; 
+    bottom: 130px;    
+}
+#footer #banquyen
+{
+    clear: both;
+    float :right;
+    position: relative;
+    top:-110px;   
+    font-size: 30px;
+}
